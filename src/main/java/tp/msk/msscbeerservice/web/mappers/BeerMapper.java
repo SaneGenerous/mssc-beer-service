@@ -7,6 +7,6 @@ import tp.msk.msscbeerservice.web.model.BeerDTO;
 @Mapper(uses = {DateMapper.class})
 public interface BeerMapper {
 
-    BeerDTO BeerToBeerDto(Beer beer);
-    Beer BeerDtoToBeer(BeerDTO beerDTO);
+    BeerDTO beerToBeerDto(Beer beer);
+    Beer beerDtoToBeer(BeerDTO beerDTO);
 }
