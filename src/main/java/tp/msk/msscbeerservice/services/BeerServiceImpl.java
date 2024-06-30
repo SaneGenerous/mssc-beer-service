@@ -4,7 +4,6 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import tp.msk.msscbeerservice.domain.Beer;
 import tp.msk.msscbeerservice.repositories.BeerRepository;
-import tp.msk.msscbeerservice.web.controller.BeerController;
 import tp.msk.msscbeerservice.web.controller.NotFoundException;
 import tp.msk.msscbeerservice.web.mappers.BeerMapper;
 import tp.msk.msscbeerservice.web.model.BeerDTO;
