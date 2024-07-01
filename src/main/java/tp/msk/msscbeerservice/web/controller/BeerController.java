@@ -1,9 +1,9 @@
 package tp.msk.msscbeerservice.web.controller;
 
-import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 import tp.msk.msscbeerservice.services.BeerService;
 import tp.msk.msscbeerservice.web.model.BeerDTO;
@@ -23,12 +23,12 @@ public class BeerController {
     }
 
     @PostMapping
-    public ResponseEntity saveNewBeer(@Valid @RequestBody BeerDTO beerDTO){
+    public ResponseEntity saveNewBeer(@Validated @RequestBody BeerDTO beerDTO){
         return new ResponseEntity<>(beerService.saveNewBeer(beerDTO), HttpStatus.CREATED);
     }
 
     @PutMapping("/{beerId}")
-    public ResponseEntity updateBeerById(@PathVariable("beerId") UUID beerId,@Valid @RequestBody BeerDTO beerDTO){
+    public ResponseEntity updateBeerById(@PathVariable("beerId") UUID beerId,@Validated @RequestBody BeerDTO beerDTO){
         return new ResponseEntity<>(beerService.updateBeerById(beerId, beerDTO), HttpStatus.NO_CONTENT);
     }
 }
