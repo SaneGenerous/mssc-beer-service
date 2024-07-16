@@ -1,4 +1,4 @@
-package tp.msk.msscbeerservice.services;
+package tp.msk.msscbeerservice.services.brewing;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
