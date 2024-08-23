@@ -7,10 +7,10 @@ import org.springframework.jms.core.JmsTemplate;
 import org.springframework.stereotype.Service;
 import tp.msk.msscbeerservice.config.JmsConfig;
 import tp.msk.msscbeerservice.domain.Beer;
-import tp.msk.msscbeerservice.events.BrewBeerEvent;
-import tp.msk.msscbeerservice.events.NewInventoryEvent;
+import tp.sfg.brewery.model.events.BrewBeerEvent;
+import tp.sfg.brewery.model.events.NewInventoryEvent;
 import tp.msk.msscbeerservice.repositories.BeerRepository;
-import tp.msk.msscbeerservice.web.model.BeerDTO;
+import tp.sfg.brewery.model.BeerDTO;
 
 import javax.transaction.Transactional;
 

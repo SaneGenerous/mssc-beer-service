@@ -9,8 +9,8 @@ import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 import tp.msk.msscbeerservice.bootstrap.BeerLoader;
 import tp.msk.msscbeerservice.services.BeerService;
-import tp.msk.msscbeerservice.web.model.BeerDTO;
-import tp.msk.msscbeerservice.web.model.BeerStyleEnum;
+import tp.sfg.brewery.model.BeerDTO;
+import tp.sfg.brewery.model.BeerStyleEnum;
 
 import java.math.BigDecimal;
 import java.util.UUID;

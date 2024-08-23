@@ -7,9 +7,9 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 import tp.msk.msscbeerservice.services.BeerService;
-import tp.msk.msscbeerservice.web.model.BeerDTO;
-import tp.msk.msscbeerservice.web.model.BeerPagedList;
-import tp.msk.msscbeerservice.web.model.BeerStyleEnum;
+import tp.sfg.brewery.model.BeerDTO;
+import tp.sfg.brewery.model.BeerPagedList;
+import tp.sfg.brewery.model.BeerStyleEnum;
 
 import java.util.UUID;
 

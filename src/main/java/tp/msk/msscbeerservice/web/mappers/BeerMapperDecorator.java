@@ -3,7 +3,7 @@ package tp.msk.msscbeerservice.web.mappers;
 import org.springframework.beans.factory.annotation.Autowired;
 import tp.msk.msscbeerservice.domain.Beer;
 import tp.msk.msscbeerservice.services.inventory.BeerInventoryService;
-import tp.msk.msscbeerservice.web.model.BeerDTO;
+import tp.sfg.brewery.model.BeerDTO;
 
 public class BeerMapperDecorator implements BeerMapper{
     private BeerInventoryService beerInventoryService;

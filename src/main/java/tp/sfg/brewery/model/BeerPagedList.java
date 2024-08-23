@@ -1,4 +1,4 @@
-package tp.msk.msscbeerservice.web.model;
+package tp.sfg.brewery.model;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;

@@ -5,10 +5,9 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 import tp.msk.msscbeerservice.domain.Beer;
 import tp.msk.msscbeerservice.repositories.BeerRepository;
-import tp.msk.msscbeerservice.web.model.BeerStyleEnum;
+import tp.sfg.brewery.model.BeerStyleEnum;
 
 import java.math.BigDecimal;
-import java.util.UUID;
 
 @RequiredArgsConstructor
 @Component

@@ -1,10 +1,9 @@
 package tp.msk.msscbeerservice.services;
 
-import org.springframework.cache.annotation.Cacheable;
 import org.springframework.data.domain.PageRequest;
-import tp.msk.msscbeerservice.web.model.BeerDTO;
-import tp.msk.msscbeerservice.web.model.BeerPagedList;
-import tp.msk.msscbeerservice.web.model.BeerStyleEnum;
+import tp.sfg.brewery.model.BeerDTO;
+import tp.sfg.brewery.model.BeerPagedList;
+import tp.sfg.brewery.model.BeerStyleEnum;
 
 import java.util.UUID;
 

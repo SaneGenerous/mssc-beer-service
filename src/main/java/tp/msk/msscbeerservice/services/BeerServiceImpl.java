@@ -10,9 +10,9 @@ import tp.msk.msscbeerservice.domain.Beer;
 import tp.msk.msscbeerservice.repositories.BeerRepository;
 import tp.msk.msscbeerservice.web.controller.NotFoundException;
 import tp.msk.msscbeerservice.web.mappers.BeerMapper;
-import tp.msk.msscbeerservice.web.model.BeerDTO;
-import tp.msk.msscbeerservice.web.model.BeerPagedList;
-import tp.msk.msscbeerservice.web.model.BeerStyleEnum;
+import tp.sfg.brewery.model.BeerDTO;
+import tp.sfg.brewery.model.BeerPagedList;
+import tp.sfg.brewery.model.BeerStyleEnum;
 
 import java.util.UUID;
 import java.util.stream.Collectors;

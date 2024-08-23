@@ -1,7 +1,7 @@
-package tp.msk.msscbeerservice.events;
+package tp.sfg.brewery.model.events;
 
 import lombok.*;
-import tp.msk.msscbeerservice.web.model.BeerDTO;
+import tp.sfg.brewery.model.BeerDTO;
 
 import java.io.Serializable;
 
