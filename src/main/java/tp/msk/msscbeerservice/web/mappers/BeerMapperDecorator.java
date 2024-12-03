@@ -1,10 +1,12 @@
 package tp.msk.msscbeerservice.web.mappers;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import tp.msk.msscbeerservice.domain.Beer;
 import tp.msk.msscbeerservice.services.inventory.BeerInventoryService;
 import tp.sfg.brewery.model.BeerDTO;
 
+@Component
 public class BeerMapperDecorator implements BeerMapper{
     private BeerInventoryService beerInventoryService;
     private BeerMapper beerMapper;
