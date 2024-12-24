@@ -10,9 +10,9 @@ import tp.msk.msscbeerservice.services.inventory.model.BeerInventoryDto;
 import java.util.List;
 import java.util.UUID;
 
-@FeignClient(name = "inventory-service", fallback = InventoryServiceFeignClientFailover.class)
-public interface InventoryServiceFeignClient {
+@FeignClient(name = "inventory-failover")
+public interface InventoryFailoverFeignClient {
 
-    @RequestMapping(method = RequestMethod.GET, value = BeerInventoryServiceRestTemplateImpl.INVENTORY_PATH)
-    ResponseEntity<List<BeerInventoryDto>> getOnHandInventory(@PathVariable UUID beerId);
+    @RequestMapping(method = RequestMethod.GET, value = "/inventory-failover")
+    ResponseEntity<List<BeerInventoryDto>> getOnhandInventory();
 }
