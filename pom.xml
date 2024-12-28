@@ -7,10 +7,10 @@
         <artifactId>sfg-brewery-bom</artifactId>
         <version>1.0.17</version>
     </parent>
-    <artifactId>MSSC-Beer-Service</artifactId>
+    <artifactId>mssc-beer-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>MSSC-Beer-Service</name>
-    <description>MSSC-Beer-Service</description>
+    <description>mssc-beer-service</description>
 
     <dependencies>
         <dependency>
